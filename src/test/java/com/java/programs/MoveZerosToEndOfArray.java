@@ -2,7 +2,7 @@ package com.java.programs;
 
 import java.util.Arrays;
 
-public class MoveOnesToEndOfArray2 {
+public class MoveZerosToEndOfArray {
 
 	public static void main(String[] args) {
 		int[] arr = { 0, 1, 1, 0, 0, 1, 1, 0, 0, 1 ,0};

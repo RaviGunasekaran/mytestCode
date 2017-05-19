@@ -20,7 +20,7 @@ public class ReadNonCommentedLineAndPrint {
 		String line = "";
 		;
 		while ((line = br.readLine()) != null) {
-			if (line.trim().startsWith("#")) {
+			if (!line.trim().startsWith("#")) {
 				System.out.println(line.trim());
 				bw.write(line);
 			}

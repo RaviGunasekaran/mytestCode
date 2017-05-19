@@ -1,4 +1,4 @@
-package com.java.programs;
+package com.testNG.programs;
 
 import java.io.File;
 import java.io.IOException;

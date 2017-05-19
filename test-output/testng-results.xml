@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35072" started-at="2017-05-15T05:28:55Z" finished-at="2017-05-15T05:29:30Z">
+  <suite name="Default suite" duration-ms="153" started-at="2017-05-19T05:35:50Z" finished-at="2017-05-19T05:35:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35072" started-at="2017-05-15T05:28:55Z" finished-at="2017-05-15T05:29:30Z">
-      <class name="com.seleniumwebdriver.programs.RefreshPage">
-        <test-method status="PASS" signature="pageRefresh()[pri:0, instance:com.seleniumwebdriver.programs.RefreshPage@4b5a5ed1]" name="pageRefresh" duration-ms="35052" started-at="2017-05-15T10:58:55Z" finished-at="2017-05-15T10:59:30Z">
+    <test name="Default test" duration-ms="153" started-at="2017-05-19T05:35:50Z" finished-at="2017-05-19T05:35:50Z">
+      <class name="com.seleniumwebdriver.programs.ReadValueFromExcel">
+        <test-method status="PASS" signature="readValueFromExcel()[pri:0, instance:com.seleniumwebdriver.programs.ReadValueFromExcel@224edc67]" name="readValueFromExcel" duration-ms="139" started-at="2017-05-19T11:05:50Z" finished-at="2017-05-19T11:05:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageRefresh -->
-      </class> <!-- com.seleniumwebdriver.programs.RefreshPage -->
+        </test-method> <!-- readValueFromExcel -->
+      </class> <!-- com.seleniumwebdriver.programs.ReadValueFromExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
