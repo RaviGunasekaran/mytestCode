@@ -1,4 +1,4 @@
-package com.tests.library;
+package com.webdriver.support;
 
 import org.apache.log4j.Logger;
 import org.openqa.grid.web.servlet.handler.WebDriverRequestFactory;

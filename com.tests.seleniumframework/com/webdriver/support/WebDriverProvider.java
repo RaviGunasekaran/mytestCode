@@ -1,4 +1,4 @@
-package com.tests.library;
+package com.webdriver.support;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -79,7 +79,7 @@ public class WebDriverProvider {
 		writeInfoLogger("Driver Successfully Closed...");
 	}
 
-	static protected void writeInfoLogger(String msg) {
+	public static void writeInfoLogger(String msg) {
 		System.out.println(msg);
 		logger.info(msg);
 	}
