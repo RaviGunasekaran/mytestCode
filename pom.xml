@@ -110,6 +110,15 @@
 			<artifactId>json-schema-validator</artifactId>
 			<version>3.0.3</version>
 		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.5</version>
+		</dependency>
 	</dependencies>
 
+	<scm>
+		<developerConnection>Ravi G</developerConnection>
+	</scm>
+	<name>Learnings</name>
 </project>
