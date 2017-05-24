@@ -1,13 +1,13 @@
 package com.selenium.pageobjects;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.webdriver.support.BaseClass;
-import com.webdriver.support.WebDriverProvider;
 
 /**
  * 
@@ -17,23 +17,25 @@ import com.webdriver.support.WebDriverProvider;
  */
 public class RegistrationPage extends BaseClass {
 
-	public RegistrationPage() {
-		WebDriver driver = (WebDriver) BaseClass.initLogger(this.getClass().getName());
-		Logger logger = BaseClass.initLogger(this.getClass().getName());
+	public RegistrationPage() throws IOException {
+		super();
 	}
+
+	Logger logger = Logger.getLogger(this.getClass());
 
 	@FindBy(css = "")
 	private WebElement userNameTextBox;
+	
+	By signOnLink = By.linkText("SIGN-ON");
 
-	void click(WebElement element) {
+	public void clickRegistrationLink() {
+		logger.info("Inside clickRegistrationLink...");
+		click(userNameTextBox);
 	}
-
-	// By password = driver
-	//
-	// @FindBy
-	// WebElement passWordTextBox = "";
-	//
-	// @FindBy
-	// WebElement submitButton = "";
+	
+	public void clickSignOnLink() {
+		logger.info("Inside clickSignOnLink...");
+		click(signOnLink);
+	}
 
 }

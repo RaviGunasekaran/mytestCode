@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.IApiTesting.RESTASSURED_TestPOSTAPIRequest">
+      <class name="com.selenium.testCases.SimpleRegistrationTest">
         <methods>
-          <include name="TestPOSTAPIRequest"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.IApiTesting.RESTASSURED_TestPOSTAPIRequest -->
+      </class> <!-- com.selenium.testCases.SimpleRegistrationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
