@@ -1,0 +1,19 @@
+2017-04-13 14:09:05 RestTestSetup [INFO] Company ID: 123145715853947
+2017-04-13 14:19:05 RestTestSetup [INFO] Region specified in property file: US
+2017-04-13 14:39:05 RestTestSetup [INFO] ----------------Loaded all shared properties -----------------
+2017-04-13 14:49:03 InfoTestListener [INFO] Default test
+2017-04-13 14:49:03 InfoTestListener [INFO] Test 1: testAccountQueryByLastUpdatedTime
+2017-04-13 14:49:03 InfoTestListener [INFO] Test 1: testAccountQueryByLastUpdatedTime
+2017-04-13 14:49:03 InfoTestListener [INFO] Will run the following tests:
+2017-04-13 14:49:04 InfoTestListener [INFO] Will run the following tests:
+2017-04-13 14:49:05 RestTestSetup [INFO] ----------------Loading Company Setup -----------------
+2017-04-13 14:49:05 RestTestSetup [INFO] PASSWORD: test1234
+2017-04-13 14:49:05 RestTestSetup [INFO] USER_NAME: wsciv3_qac9plus_iamtestpass
+2017-04-13 14:49:05 RestTestSetup [INFO] Using local properties from: service.env.properties
+2017-04-13 14:49:05 RestTestSetup [INFO] config Value : null
+2017-04-13 14:49:06 InfoTestListener [INFO] Default test
+2017-04-13 14:49:08 RestTest [INFO] Company Test Type provided in the test: US
+2017-04-13 14:49:08 RestTestSetup [INFO] BASE_URI: https://qa.qbo.intuit.com/qbo1
+2017-04-13 14:49:11 RestTestSetup [INFO] POST_TYPE: XML
+2017-04-13 14:49:50
+2017-04-13 14:59:05 RestTestSetup [INFO] RESPONSE_TYPE: XML
